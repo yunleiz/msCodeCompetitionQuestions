@@ -1,0 +1,740 @@
+{\rtf1\ansi\ansicpg936\deff0\nouicompat\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.10240}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9\par
+\par
+\par
+{{\field{\*\fldinst{HYPERLINK https://msft3c.com/compete/ }}{\fldrslt{https://msft3c.com/compete/\ul0\cf0}}}}\f0\fs22\par
+{{\field{\*\fldinst{HYPERLINK http://msft3c.com }}{\fldrslt{http://msft3c.com\ul0\cf0}}}}\f0\fs22\par
+Your msft3c.com event secret is UUhn7D\par
+ Heng Xu  \u-8153?   \par
+xuhengxuheng@hotmail.com \par
+11/2015 \par
+\par
+the team\par
+Secret: GY3t7g83\par
+\par
+\par
+Matrix multiplication | 3 point(s)\par
+  \par
+   \par
+\par
+Computer graphics, artificial intelligence, and robotics, along with many other applications, rely very heavily on the ability to multiply matrices together. The modern computer game completes millions of matrix multiplications per second. While normally done in hardware, it is important for the game developer to have a deep understanding of how these multiplications work. For this problem, assume the role of a game developer looking to verify some graphics transformations and implement a matrix multiplier.\par
+\par
+Input definition\par
+\par
+\par
+The input will be a series of at least two matrices that need to be multiplied together. The Matrices will be bounded on the left and right by | characters and individual entries will be separated by at least one space character. To make things easier, we will stick with integer values (positive and negative).\par
+\par
+For example, a 3x3 identity matrix would be represented as follows:\par
+| 1 0 0 |\par
+| 0 1 0 |\par
+| 0 0 1 |\par
+\par
+\par
+The multiplication of a 3x3 matrix with a 3x1 column vector matrix would be represented as:\par
+| 1 0 0 | | 2 |\par
+| 0 1 0 | | 4 |\par
+| 0 0 1 | | 6 |\par
+\par
+\par
+The | marking the start and end of a matrix will always line up in the input. Thus, a 2x3 matrix multiplied by a 3x2 matrix would be represented as:\par
+| 1  2  3  | | -1 -2 |\par
+| 11 12 13 | | 10 11 |\par
+             | -9 -8 |\par
+\par
+\par
+Remember that more than two matrices may be specified in the input.\par
+\par
+Output definition\par
+\par
+\par
+The output from the problem should be a matrix formatted in the same manner as the input matrices.\par
+\par
+The left and right most character should be a | and all columns should be right aligned. The individual number entries should be separated by at least one space from the | character as well as any other number entry (where the exact number is determinded by column alignment). Negative numbers will be immediately preceeded by a - character.\par
+\par
+For example, an output could be as follows:\par
+| 1  -2 30 |\par
+| 2 508  7 |\par
+| 3  15 -5 |\par
+| 0   0 18 |\par
+\par
+\par
+Remember, the whitespace within each line must be exact to receive credit. Please ensure you have validated your solution against all practice input provided.\par
+\par
+Example input\par
+| 1 2 3 | |  7  8 |\par
+| 4 5 6 | |  9 10 |\par
+          | 11 12 |\par
+\par
+Example output\par
+|  58  64 |\par
+| 139 154 |\par
+\par
+\par
+\par
+Matrix multiplication | 3 point(s)\par
+  \par
+   1. Download an input: \par
+ \par
+Sample Input 1\u-8110?\par
+\par
+\par
+\par
+Download input \par
+2.Run the input through your program\par
+3.Paste the output below\par
+\par
+\par
+\par
+Correct output \par
+\par
+Your output \par
+\par
+\par
+Matrix multiplication | 3 point(s)\par
+  \par
+ \f1\bullet You can't cancel a submission once you've started, so make sure you have the individual file that contains your solution (no ZIPs or other compressed folders, please) ready to go!\par
+\bullet Each submission has a different input. Make sure you download the input each time you start a submission.\par
+\par
+\par
+\par
+Start submission (you have 3 remaining)  \par
+\par
+\par
+\par
+\par
+Your team's submissions\par
+\par
+\par
+Submitter\par
+\par
+Start Time\par
+\par
+Submission time\par
+\par
+Result\par
+\par
+\par
+\par
+Your team has not attempted this problem yet.\par
+\par
+\par
+\par
+Pick your problems | 3 point(s)\par
+  \par
+   \par
+\par
+Imagine for a moment that you are competing in a college coding competition (it's a bit of a stretch, but bear with us). You are given a set of programming problems to solve, and you may solve any number of them in any order before a strict time limit runs out. Each problem has a score and an estimated time to complete.\par
+\par
+Typically, you will receive no points for a problem unless it is completely solved. For simplicity, assume that completely solving a problem requires its entire estimated time. However, there is a twist: you may receive partial credit on at most one problem. The partial credit is given in proportion to how close your solution comes to the full, correct solution, which of course depends on how much time you spend working on it. For example, if a problem is worth 5 points and is estimated to take 30 minutes, then if you spend 15 minutes on it, you will receive 2.5 points for it.\par
+\par
+Your goal is to write a program to select a subset of problems to solve, such that the total time you would spend solving the problems does not exceed the competition time limit. You should seek to accomplish the following goals in decreasing order of priority:\par
+1. The total score of the subset should be as large as possible. \par
+2. The subset should contain as many problems as possible. \par
+3. It is preferred that your solution not contain a partial-credit problem. If you do solve a problem for partial credit, its score should be as low as possible. \par
+\par
+Input definition\par
+\par
+\par
+An input file for this problem will contain no more than 50 lines.\par
+\par
+The first line will contain an unsigned integer representing the total duration of the competition in minutes. The following lines will specify the programming problems. A problem specification is three integers separated by commas: problemID,score,durationInMinutes. It is noted that no two problems will have both the same score and duration in minutes.\par
+\par
+Output definition\par
+\par
+\par
+An output file for this problem should contain two lines. The first line should show the total score you would receive for solving the problems you chose within the time limit. If the score is fractional, just round down to the nearest integer.\par
+\par
+On the second line, list the ID's of the problems you chose to solve, separated by commas with no spaces, and sorted in increasing order. If you chose to solve one of the problems for partial credit, print an asterisk (*) after it in the list.\par
+\par
+\par
+Example input\par
+60\par
+1,9,30\par
+2,10,32\par
+\par
+Example output\par
+18\par
+1*,2\par
+\par
+\par
+\par
+Pick your problems | 3 point(s)\par
+  \par
+   1. Download an input: \par
+ \par
+Sample Input 1\u-8110?\par
+\par
+\par
+\par
+Download input \par
+2.Run the input through your program\par
+3.Paste the output below\par
+\par
+\par
+\par
+Correct output \par
+\par
+Your output \par
+\par
+\par
+\par
+Pick your problems | 3 point(s)\par
+  \par
+ \bullet You can't cancel a submission once you've started, so make sure you have the individual file that contains your solution (no ZIPs or other compressed folders, please) ready to go!\par
+\bullet Each submission has a different input. Make sure you download the input each time you start a submission.\par
+\par
+\par
+\par
+Start submission (you have 3 remaining)  \par
+\par
+\par
+\par
+\par
+Your team's submissions\par
+\par
+\par
+Submitter\par
+\par
+Start Time\par
+\par
+Submission time\par
+\par
+Result\par
+\par
+\par
+\par
+Your team has not attempted this problem yet.\par
+\par
+\par
+\par
+Happy numbers | 2 point(s)\par
+  \par
+   \par
+\par
+Take any positive number, such as 28. The sum of the squares of its digits is 22 + 82 = 68. If we continue this process, we get the following sequence:\par
+\par
+28, 68, 100, 1.\par
+\par
+Since the sequence ends in 1, 28 is a happy number.\par
+\par
+However, not all numbers are happy. For example, 45 is not a happy number, or is an unhappy number, since it produces the following sequence:\par
+\par
+45, 41, 17, 50, 25, 29, 85, 89, 145, 42, 20, 4, 16, 37, 58, 89, ...\par
+\par
+at which point the sequence has started to repeat. The process never results in a 1.\par
+\par
+For this problem, we will determine if a number is happy or unhappy, and the degree to which it is happy or unhappy.\par
+\par
+Input definition\par
+\par
+\par
+The input to your solution will be a list of ten positive integers, one on each line. The smallest possible integer is 1; the largest possible integer is 500,000.\par
+\par
+Output definition\par
+\par
+\par
+The output from your solution should be one line per number. Each line should have one word and one number, in that order, separated by one whitespace character.\par
+\par
+If the input integer for the line is happy (as defined above), the word happy should be followed by the number of integers in the sequence before a 1 is seen.\par
+\par
+If the number is unhappy, the word unhappy should be followed by the number of integers in the sequence before the sequence starts to repeat.\par
+\par
+The output should end with an empty line.\par
+\par
+Example input\par
+\par
+\par
+28\par
+45\par
+1\par
+314159\par
+100\par
+25\par
+4\par
+500000\par
+888\par
+27182\par
+\par
+\par
+Example output\par
+happy 3\par
+unhappy 15 \par
+happy 0\par
+happy 6\par
+happy 1\par
+unhappy 11\par
+unhappy 8\par
+unhappy 12\par
+happy 4\par
+unhappy 14\par
+\par
+\par
+Happy numbers | 2 point(s)\par
+  \par
+   1. Download an input: \par
+ \par
+Sample Input 1\u-8110?\par
+\par
+\par
+\par
+Download input \par
+2.Run the input through your program\par
+3.Paste the output below\par
+\par
+\par
+\par
+Correct output \par
+\par
+Your output \par
+\par
+\par
+\par
+Happy numbers | 2 point(s)\par
+  \par
+ \bullet You can't cancel a submission once you've started, so make sure you have the individual file that contains your solution (no ZIPs or other compressed folders, please) ready to go!\par
+\bullet Each submission has a different input. Make sure you download the input each time you start a submission.\par
+\par
+\par
+\par
+Start submission (you have 3 remaining)  \par
+\par
+\par
+\par
+\par
+Your team's submissions\par
+\par
+\par
+Submitter\par
+\par
+Start Time\par
+\par
+Submission time\par
+\par
+Result\par
+\par
+\par
+\par
+Your team has not attempted this problem yet.\par
+\par
+\par
+\par
+Palindromic anagrams | 2 point(s)\par
+  \par
+   \par
+\par
+A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward. An anagram is the result of rearranging the letters of a word or phrase to produce a new word or phrase, using all of the original letters exactly once.\par
+\par
+This problem is a combination of both. You will be given a string and your program needs to check whether or not any of its anagrams contain a palindrome. If none of the anagrams is a palindrome, then you need to find the minimum number of characters to eliminate from the string in order for at least one of its anagrams to be a palindrome. In addition, your program needs to figure out the number of anagrams that are palindromes.\par
+\par
+Consider this example: You are given the string "aabd". None of the anagrams of this string are palindrome. If you remove the letter "d", however, then "aba" is an anagram of the string that is a palindrome; if you remove the letter "b", then "ada" is an anagram that is a palindrome. In either case, there is only one anagram that is a palindrome.\par
+\par
+Input definition\par
+\par
+\par
+The input file will contain multiple lines. Each line will have a string of lowercase alphabetic characters ('a'-'z'). The length of the string will vary from 1 to 20.\par
+\par
+Output definition\par
+\par
+\par
+The output file should contain exactly the same number of lines as the input. Each line of the output should be of the following format: X,Y where X is the minimum number of characters you need to remove from the original string for any of its anagrams to be a palindrome and Y is the total number of anagrams that are palindromic after you remove X characters. Permutations of the same letter within a palindrome do not count; in particular, 'aaa' is 1 palindrome, not 6.\par
+\par
+Example input\par
+\par
+\par
+\par
+aba\par
+acad\par
+agabgb\par
+agqagdt\par
+\par
+Example output\par
+0,1\par
+1,1\par
+0,6\par
+2,2\par
+\par
+\par
+\par
+Palindromic anagrams | 2 point(s)\par
+  \par
+   1. Download an input: \par
+ \par
+Sample Input 1\u-8110?\par
+\par
+\par
+\par
+Download input \par
+2.Run the input through your program\par
+3.Paste the output below\par
+\par
+\par
+\par
+Correct output \par
+\par
+Your output \par
+\par
+\par
+Palindromic anagrams | 2 point(s)\par
+  \par
+ \bullet You can't cancel a submission once you've started, so make sure you have the individual file that contains your solution (no ZIPs or other compressed folders, please) ready to go!\par
+\bullet Each submission has a different input. Make sure you download the input each time you start a submission.\par
+\par
+\par
+\par
+Start submission (you have 3 remaining)  \par
+\par
+\par
+\par
+\par
+Your team's submissions\par
+\par
+\par
+Submitter\par
+\par
+Start Time\par
+\par
+Submission time\par
+\par
+Result\par
+\par
+\par
+\par
+Your team has not attempted this problem yet.\par
+\par
+\par
+\par
+4-sided figures | 1 point(s)\par
+  \par
+   \par
+\par
+Given a 3-tuple of side lengths, it is known that one can form a triangle if the sum of any two sides is greater than the remaining side. Given a list of 4-tuples of side lengths, determine if one can form a non-degenerate convex quadrilateral (a strictly four sided figure with no internal angles greater than or equal to 180 degrees).\par
+\par
+Input definition\par
+\par
+\par
+The first line contains a positive integer indicating the number (N) of lines to read after the first. Each line after the first contains 4 positive integers separated by single spaces, representing the 4 side lengths.\par
+\par
+Output definition\par
+\par
+\par
+The output should contain N lines. Each line should contain either the string "Possible", or "Impossible". The line should say "Possible" if one can form a non-degenerate convex quadrilateral from the 4 given side lengths. Otherwise, it should say "Impossible".\par
+\par
+Example input\par
+8\par
+26 3 13 9\par
+22 39 3 21\par
+34 38 35 7\par
+14 7 10 19\par
+26 36 20 15\par
+33 16 14 11\par
+1 25 26 31\par
+10 27 5 7\par
+\par
+Example output\par
+\par
+\par
+\par
+Impossible\par
+Possible\par
+Possible\par
+Possible\par
+Possible\par
+Possible\par
+Possible\par
+Impossible\par
+\par
+\par
+\par
+4-sided figures | 1 point(s)\par
+  \par
+ \bullet You can't cancel a submission once you've started, so make sure you have the individual file that contains your solution (no ZIPs or other compressed folders, please) ready to go!\par
+\bullet Each submission has a different input. Make sure you download the input each time you start a submission.\par
+\par
+\par
+\par
+Start submission (you have 3 remaining)  \par
+\par
+\par
+\par
+\par
+Your team's submissions\par
+\par
+\par
+Submitter\par
+\par
+Start Time\par
+\par
+Submission time\par
+\par
+Result\par
+\par
+\par
+\par
+Your team has not attempted this problem yet.\par
+\par
+\par
+\par
+Bubble sort | 1 point(s)\par
+  \par
+   \par
+\par
+Of all the classical sorting algorithms, Bubble Sort is likely the most simple to write and to understand.\par
+\par
+For this problem we will be sorting a list of numbers using a left to right bubble sort. Starting at the beginning of the list, compare every adjacent pair of numbers. Swap their position if they are not in the right order (i.e. if the right number is smaller than the left number). After doing this with the entire list, start again from the beginning. Each time you start again at the beginning of the list, one less number (the last one compared in the previous iteration) is needed to be compared. Continue these iterations until there are no more elements left to be compared.\par
+\par
+The goal of this problem is both to sort the list of numbers as well as to indicate how many times you had to swap a pair. For example, assume your initial list was 5 1 4 2 8. During the first pass, where you compare all pairs, there would be 3 swaps (5 and 1 then 5 and 4 then 5 and 2) resulting in a list of 1 4 2 5 8. During the second pass, there is one additional swap (4 and 2) and you would not compare the pair of 5 and 8. The third pass would result in no swaps and would only compare the first two pairs. The fourth pass would only look at the first pair and would not swap anything. The total number of swaps for this list, therefore, is 4.\par
+\par
+Input definition\par
+\par
+\par
+The input for this problem will be a single line of text with a list of non-negative integer numbers. Each number will be separated by a single whitespace character. The list may contain duplicates.\par
+\par
+Output definition\par
+\par
+\par
+The result should contain two lines. The first line will be a single number. This number will be the number of swaps you needed to perform in order to sort the list using bubble sort. The second line will be the sorted list of numbers with one space character between each number and no leading or trailing spaces.\par
+\par
+Example input\par
+5 1 4 2 8\par
+\par
+Example output\par
+4\par
+1 2 4 5 8\par
+\par
+\par
+\par
+Bubble sort | 1 point(s)\par
+  \par
+   1. Download an input: \par
+ \par
+Sample Input 1\u-8110?\par
+\par
+\par
+\par
+Download input \par
+2.Run the input through your program\par
+3.Paste the output below\par
+\par
+\par
+\par
+Correct output \par
+\par
+Your output \par
+\par
+\par
+\par
+Bubble sort | 1 point(s)\par
+  \par
+ \bullet You can't cancel a submission once you've started, so make sure you have the individual file that contains your solution (no ZIPs or other compressed folders, please) ready to go!\par
+\bullet Each submission has a different input. Make sure you download the input each time you start a submission.\par
+\par
+\par
+\par
+Start submission (you have 3 remaining)  \par
+\par
+\par
+\par
+\par
+Your team's submissions\par
+\par
+\par
+Submitter\par
+\par
+Start Time\par
+\par
+Submission time\par
+\par
+Result\par
+\par
+\par
+\par
+Your team has not attempted this problem yet.\par
+\par
+\par
+\par
+Radix conversion | 1 point(s)\par
+  \par
+   \par
+\par
+You are this week's on-call engineer for the web servers managed by your team. One morning (it's still dark outside), you are awakened by a call that one of your services has gone down. You immediately log into the web management portal and download a memory dump of the process that crashed. Unfortunately, the bug that caused the crash has also garbled the memory dump. All of the values in memory have been converted into other numerical bases in the range of [2,36]: some are hexadecimal; some are binary; and some may not even appear on this lengthy list of named bases. Now, you must decipher them using a little radix conversion magic.\par
+\par
+Input definition\par
+\par
+\par
+An input file for this problem will contain an arbitrary number of lines.\par
+\par
+Each line will contain three parts, separated by commas. The first part is a value from the memory dump. The second part is a decimal integer which represents the radix of the memory value. The third part is a decimal integer representing another radix. You must convert each memory value from the first radix into the second radix.\par
+\par
+Beware: some inputs will be invalid. Valid radixes will be in the range [2, 36]. Valid memory dump values will contain only lower-case alphanumeric characters, and their decimal representations will fit in a 32-bit signed integer.\par
+\par
+Output definition\par
+\par
+\par
+An output file for this problem should contain the same number of lines as the input file.\par
+\par
+On each line, print the corresponding memory value expressed in the given radix. The output string should contain only lower-case alphanumeric characters. If the input is invalid or the conversion is impossible, print "Invalid Input" on the line.\par
+\par
+Example input\par
+beef,16,10\par
+10110010,2,16\par
+2343001,8,17\par
+\par
+\par
+Example output\par
+48879\par
+b2\par
+7b654\par
+\par
+\par
+Radix conversion | 1 point(s)\par
+  \par
+   1. Download an input: \par
+ \par
+Sample Input 1\u-8110?\par
+\par
+\par
+\par
+Download input \par
+2.Run the input through your program\par
+3.Paste the output below\par
+\par
+\par
+\par
+Correct output \par
+\par
+Your output \par
+\par
+\par
+\par
+Radix conversion | 1 point(s)\par
+  \par
+ \bullet You can't cancel a submission once you've started, so make sure you have the individual file that contains your solution (no ZIPs or other compressed folders, please) ready to go!\par
+\bullet Each submission has a different input. Make sure you download the input each time you start a submission.\par
+\par
+\par
+\par
+Start submission (you have 3 remaining)  \par
+\par
+\par
+\par
+\par
+Your team's submissions\par
+\par
+\par
+Submitter\par
+\par
+Start Time\par
+\par
+Submission time\par
+\par
+Result\par
+\par
+\par
+\par
+Your team has not attempted this problem yet.\par
+\par
+\par
+\par
+Bubble sort | 1 point(s)\par
+  \par
+ \bullet You can't cancel a submission once you've started, so make sure you have the individual file that contains your solution (no ZIPs or other compressed folders, please) ready to go!\par
+\bullet Each submission has a different input. Make sure you download the input each time you start a submission.\par
+\par
+\par
+\par
+Start submission (you have 2 remaining)  \par
+\par
+\par
+\par
+\par
+Your team's submissions\par
+\par
+\par
+Submitter\par
+\par
+Start Time\par
+\par
+Submission time\par
+\par
+Result\par
+\par
+\par
+Yunlei Zhang \ltrmark 7\ltrmark :\ltrmark 27\ltrmark :\ltrmark 07\ltrmark  \ltrmark PM \ltrmark 7\ltrmark :\ltrmark 28\ltrmark :\ltrmark 52\ltrmark  \ltrmark PM Correct \par
+\par
+\par
+\par
+Happy numbers | 2 point(s)\par
+  \par
+ \bullet You can't cancel a submission once you've started, so make sure you have the individual file that contains your solution (no ZIPs or other compressed folders, please) ready to go!\par
+\bullet Each submission has a different input. Make sure you download the input each time you start a submission.\par
+\par
+\par
+\par
+Start submission (you have 1 remaining)  \par
+\par
+\par
+\par
+\par
+Your team's submissions\par
+\par
+\par
+Submitter\par
+\par
+Start Time\par
+\par
+Submission time\par
+\par
+Result\par
+\par
+\par
+Yunlei Zhang \ltrmark 8\ltrmark :\ltrmark 22\ltrmark :\ltrmark 28\ltrmark  \ltrmark PM \ltrmark 8\ltrmark :\ltrmark 25\ltrmark :\ltrmark 52\ltrmark  \ltrmark PM Incorrect \par
+Yunlei Zhang \ltrmark 8\ltrmark :\ltrmark 46\ltrmark :\ltrmark 33\ltrmark  \ltrmark PM \ltrmark 8\ltrmark :\ltrmark 47\ltrmark :\ltrmark 14\ltrmark  \ltrmark PM Correct \par
+\par
+\par
+Matrix multiplication | 3 point(s)\par
+  \par
+ \bullet You can't cancel a submission once you've started, so make sure you have the individual file that contains your solution (no ZIPs or other compressed folders, please) ready to go!\par
+\bullet Each submission has a different input. Make sure you download the input each time you start a submission.\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+    \par
+    \par
+\par
+\par
+\par
+\par
+Make your submission\par
+1.Download input for this submission\par
+2.Run the input through your program\par
+3. Select the source code file that created this output \par
+\par
+\par
+ Add file... \par
+ \par
+4. Paste the output below \par
+\par
+\par
+\par
+\f0\par
+}
+ 

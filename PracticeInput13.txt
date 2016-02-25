@@ -1,0 +1,161 @@
+78
+40 31 24 23
+93 34 19 16
+59 20 9 5
+22 10 11 67
+19 18 60 10
+30 27 97 26
+7 17 16 22
+39 19 22 76
+15 16 17 1
+31 30 22 11
+31 21 64 17
+3 24 52 20
+27 23 25 94
+19 7 4 18
+19 22 82 9
+14 9 20 13
+18 16 79 18
+38 29 32 18
+25 33 18 8
+22 88 12 25
+21 75 22 5
+24 95 10 27
+19 23 11 57
+32 25 18 19
+14 38 74 8
+41 12 120 24
+19 21 11 17
+25 21 31 92
+19 39 22 25
+6 2 39 23
+20 19 27 32
+33 21 7 103
+37 17 55 29
+85 60 44 24
+17 96 22 28
+27 8 26 25
+22 17 87 40
+26 32 60 18
+26 94 23 26
+26 5 19 22
+29 84 1 25
+30 28 8 81
+19 36 15 8
+23 24 70 4
+25 4 19 21
+19 18 38 28
+1 10 30 26
+34 12 81 22
+5 22 21 31
+25 28 55 18
+10 57 10 21
+45 18 12 2
+18 25 21 39
+10 5 13 11
+13 18 37 10
+13 24 20 15
+25 10 89 27
+22 13 7 27
+19 99 23 20
+14 35 35 14
+20 51 33 27
+24 15 37 51
+56 26 41 33
+5 68 15 26
+24 69 23 42
+18 71 16 14
+68 22 7 23
+26 20 12 32
+11 31 28 89
+28 47 16 38
+60 32 10 37
+30 6 35 30
+22 25 78 14
+21 24 44 106
+15 65 2 30
+19 28 46 43
+7 84 24 15
+31 94 27 25
+
+
+
+Possible
+Impossible
+Impossible
+Impossible
+Impossible
+Impossible
+Possible
+Possible
+Possible
+Possible
+Possible
+Impossible
+Impossible
+Possible
+Impossible
+Possible
+Impossible
+Possible
+Possible
+Impossible
+Impossible
+Impossible
+Impossible
+Possible
+Impossible
+Impossible
+Possible
+Impossible
+Possible
+Impossible
+Possible
+Impossible
+Possible
+Possible
+Impossible
+Possible
+Impossible
+Possible
+Impossible
+Possible
+Impossible
+Impossible
+Possible
+Impossible
+Possible
+Possible
+Possible
+Impossible
+Possible
+Possible
+Impossible
+Impossible
+Possible
+Possible
+Possible
+Possible
+Impossible
+Possible
+Impossible
+Possible
+Possible
+Possible
+Possible
+Impossible
+Possible
+Impossible
+Impossible
+Possible
+Impossible
+Possible
+Possible
+Possible
+Impossible
+Impossible
+Impossible
+Possible
+Impossible
+Impossible
+

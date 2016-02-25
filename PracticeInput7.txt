@@ -1,0 +1,23 @@
+4489
+5
+1
+200
+47901
+73
+227661
+347
+6536
+83
+
+unhappy 18
+unhappy 12
+happy 0
+unhappy 9
+unhappy 17
+unhappy 9
+happy 3
+unhappy 12
+unhappy 10
+unhappy 10
+
+

@@ -1,0 +1,21 @@
+2
+47052
+6047
+497232
+632
+1
+2024
+94
+312
+52
+
+unhappy 9
+happy 5
+unhappy 11
+unhappy 14
+happy 5
+happy 0
+unhappy 10
+happy 4
+unhappy 15
+unhappy 11

@@ -1,0 +1,23 @@
+191
+456587
+11
+46818
+9883
+443
+7
+19
+5
+4156
+
+unhappy 11
+unhappy 15
+unhappy 10
+unhappy 17
+unhappy 15
+unhappy 15
+happy 5
+happy 4
+unhappy 12
+unhappy 13
+
+
